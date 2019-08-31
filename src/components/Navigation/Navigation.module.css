@@ -1,0 +1,21 @@
+.navigation {
+    height: 100%;
+    width: 20%;
+    background: #2f2b53;
+    position: absolute;
+}
+
+.navigation,
+.navigation ul {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_title {
+    text-transform: capitalize;
+    color: white;
+    padding-left: 12px;
+}

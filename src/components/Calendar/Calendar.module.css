@@ -1,0 +1,22 @@
+.calendar {
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    margin: 0;
+    background-color: #e4e0f8;
+    position: absolute;
+}
+
+.calendar_title {
+    display: flex;
+    flex-flow: row;
+    text-transform: capitalize;
+}
+
+.fullCalendar {
+    width: 70%;
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    background: #ffffff;
+}

@@ -1,0 +1,61 @@
+.container,
+.header_nav,
+.search,
+.icons,
+p {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header_title {
+    display: block;
+    width: 20%;
+    height: inherit;
+    background: #281f38;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    margin-left: 12px;
+}
+
+p {
+    align-items: center;
+}
+
+.header_nav {
+    justify-content: space-between;
+    width: 80%;
+}
+
+input {
+    width: 300px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.icons {
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.icons li {
+    padding-left: 25px;
+}
+
+hr {
+    height: 15px;
+}
+
+.icons li:nth-child(3) {
+    padding-right: 25px;
+}
